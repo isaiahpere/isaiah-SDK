@@ -1,0 +1,25 @@
+{
+  "name": "lordy-mordy-sdk",
+  "version": "1.0.0",
+  "description": "lord of the rings api SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaiahpere/isaiah-SDK.git"
+  },
+  "keywords": [
+    "lordy"
+  ],
+  "author": "isaiahpere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaiahpere/isaiah-SDK/issues"
+  },
+  "homepage": "https://github.com/isaiahpere/isaiah-SDK#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
