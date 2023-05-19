@@ -12,3 +12,13 @@ Install the lordy package
 ```
 npm i lordy-mordy-sdk
 ```
+
+## ------ Usage -------
+```javascript
+const lordy = require("lordy-mordy-sdk")
+
+const getMovies = async () => {
+  const movies = await lordy.getMovies('api-access-token')
+  console.log(movies) // show all movies
+}
+```
