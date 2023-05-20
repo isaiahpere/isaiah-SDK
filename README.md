@@ -1,9 +1,9 @@
 # isaiah-SDK
 
 ## Description
-Lordy is a Javascript SDK built to easily integrate the Lord of the Rings API into your application. This is the 21st centery. Enough of having to build utilities for all kinds of crazy endpoints your application needs to function properly. We all know you end up defaulting to stackoverflow when structuring your code, so why not allow Lordy SDK to give you a hand instead. Lordy was designed to not only save you time but to also boost your code's performance and elegance. Refractor major companents of your application by letting lordy do the heavy lifting while you take care of the fun stuff.
+Lordy is a Javascript SDK built to easily integrate the Lord of the Rings API into your application. This is the 21st century. Enough of having to build utilities for all kinds of crazy endpoints your application needs to function properly. We all know you end up defaulting to stackoverflow when structuring your code anyways, so why not allow Lordy SDK to give you a hand instead. Lordy was designed to not only save you time but to also boost your code's performance and elegance. Refractor major companents of your application by letting lordy do the heavy lifting while you take care of the fun stuff.
 
-Lordy SDK was built to work together with [The-One-API](https://the-one-api.dev/). This means that in order to use lordy you will need to have an access token which you can get [here](https://the-one-api.dev/sign-up). Please make sure you have secure you access token in order to be able to use lordy
+Lordy SDK was built to work together with [The-One-API](https://the-one-api.dev/). This means that in order to use lordy you will need to have an access token which you can get [here](https://the-one-api.dev/sign-up). Please ensure you have secure your access proir to using lordy.
 
 ## Installation
 
@@ -202,10 +202,10 @@ getQuoteData()
 
 
 # How to Test SDK
-To test the sdk is simple. Copy the code blocks above and run them in your local machine. Make sure to install the NPM package prior to testing the code. 
+Testing Lordy SDK is simple. First ensure you have Lordy NPM package installed then Copy the code blocks above and run them in your local machine. 
 The output of each code block should match the ***output*** commented right below the code block. 
 
-### Example to test
+### Test Example
 1. Install the package in your app
 
 Install the lordy package 
