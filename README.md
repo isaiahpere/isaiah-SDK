@@ -29,8 +29,8 @@ Let's cover the use cases for ***getMovie()***.
 const lordy = require("lordy-mordy-sdk")
 
 const getMovieData = async () => {
-  const movies = await lordy.getMovies('api-access-token')
-  console.log(movies) 
+  const movieData = await lordy.getMovie('api-access-token')
+  console.log(movieData) 
 }
 getMovieData()
 ```
@@ -69,8 +69,8 @@ getMovieData()
 const lordy = require("lordy-mordy-sdk")
 
 const getMovieData = async () => {
-  const movies = await lordy.getMovies('api-access-token', '5cd95395de30eff6ebccde5d')
-  console.log(movies) 
+  const movieData = await lordy.getMovie('api-access-token', '5cd95395de30eff6ebccde5d')
+  console.log(movieData) 
 }
 getMovieData()
 ```
@@ -98,8 +98,8 @@ getMovieData()
 const lordy = require("lordy-mordy-sdk")
 
 const getMovieData = async () => {
-  const movies = await lordy.getMovies('api-access-token', '5cd95395de30eff6ebccde5d', true)
-  console.log(movies) 
+  const movieData = await lordy.getMovie('api-access-token', '5cd95395de30eff6ebccde5d', true)
+  console.log(movieData) 
 }
 getMovieData()
 ```
@@ -140,8 +140,8 @@ __________________
 const lordy = require("lordy-mordy-sdk")
 
 const getQuoteData = async () => {
-const quotes = await lordy.getQuote('api-access-token');
-  console.log(quotes)
+const quoteData = await lordy.getQuote('api-access-token');
+  console.log(quoteData)
 }
 getQuoteData()
 ```
@@ -180,8 +180,8 @@ __________________
 const lordy = require("lordy-mordy-sdk")
 
 const getQuoteData = async () => {
-const quotes = await lordy.getQuote('api-access-token', '5cd96e05de30eff6ebcce84b');
-  console.log(quotes)
+const quoteData = await lordy.getQuote('api-access-token', '5cd96e05de30eff6ebcce84b');
+  console.log(quoteData)
 }
 getQuoteData()
 ```
