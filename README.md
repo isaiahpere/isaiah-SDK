@@ -200,3 +200,38 @@ getQuoteData()
 
 ```
 
+
+# How to Test SDK
+To test the sdk is simple. Copy the code blocks above and run them in your local machine. Make sure to install the NPM package prior to testing the code. 
+The output of each code block should match the ***output*** commented right below the code block. 
+
+### Example to test
+1. Install the package in your app
+
+Install the lordy package 
+```
+npm i lordy-mordy-sdk
+```
+2. Copy this code into your app. ***Make sure to replace 'api-access-token' with your token***.
+```javascript
+//Fetch A Single Quote
+const lordy = require("lordy-mordy-sdk")
+
+const getQuoteData = async () => {
+const quoteData = await lordy.getQuote('api-access-token', '5cd96e05de30eff6ebcce84b');
+  console.log(quoteData)
+}
+getQuoteData()
+```
+3. Your output should be:
+```
+// docs: [
+//   {
+//     _id: '5cd96e05de30eff6ebcce84b',
+//     dialog: "Well, I'm back.",
+//     movie: '5cd95395de30eff6ebccde5d',
+//     character: '5cd99d4bde30eff6ebccfd0d',
+//     id: '5cd96e05de30eff6ebcce84b'
+//   }
+// ]
+```
